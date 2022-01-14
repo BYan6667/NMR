@@ -506,11 +506,11 @@ def read_molecules(search_html):
 def main():
     html = open_search()
     time.sleep(3)
-    cur_page = 1
+    cur_page = 21
     mw_from = 12
     mw_to = 100000
 
-    max_pages = 3
+    max_pages = 31
     is_last_page = False
     while (not is_last_page) and (cur_page < max_pages):
         try:
